@@ -152,28 +152,23 @@ nav ul li a {
     color: #fff;
 }
 
-#menuBtn {
-    width: 50px;
-    height: 50px;
-    background: #0d69a3;
-    text-align: center;
-    position: fixed;
-    right: 30px;
-    top: 20px;
-    border-radius: 3px;
-    z-index: 3;
-    cursor: pointer;
-}
 
-#menuBtn img {
-    width: 20px;
-    margin-top: 15px;
-}
 
 @media screen and (max-width: 770px) {
     .banner-text h1 {
         font-size: 55px;
-        margin-top: 80px;
+        margin-top: 10px;
+    }
+    .logo {
+        width: 150px;
+        cursor: pointer;
+        margin: 25px;
+    }
+    .banner-text p {
+        margin: 20px 20px;
+        font-weight: 100;
+        line-height: 17px;
+        font-size: 13px;
     }
     .banner {
         width: 100%;
@@ -181,6 +176,24 @@ nav ul li a {
         background-image: linear-gradient(rgba(0, 0, 0, 0.75), #0d69a3), url(./immagini/background.jpg);
         background-size: cover;
         background-position: center;
+    }
+    #menuBtn {
+        width: 50px;
+        height: 50px;
+        background: #0d69a3;
+        text-align: center;
+        position: fixed;
+        right: 30px;
+        top: 20px;
+        border-radius: 3px;
+        z-index: 3;
+        cursor: pointer;
+    }
+    
+    #menuBtn img {
+        width: 20px;
+        margin-top: 15px;
+        margin-left: 30px;
     }
 
     .button {
