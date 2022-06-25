@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="viewport" contet="width =device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 
@@ -70,13 +71,18 @@
         var menuBtn = document.getElementById("menuBtn")
         var sideNav = document.getElementById("sideNav")
         var menu = document.getElementById("menu")
+        
+        sideNav.style.right = "-250px";
+
 
         menuBtn.onclick = function(){
             if(sideNav.style.right == "-250px") {
                 sideNav.style.right = "0";
+                menu.src = "immagini/close.png";
             }
             else {
                 sideNav.style.right = "-250px";
+                menu.src = "immagini/menu.png";
 
             }
         }
