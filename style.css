@@ -261,10 +261,22 @@ nav ul li a {
     width: 100px;
     margin: 0 auto;
     display: block;
-    margin-top: 50px;
+    margin-top: 90px
     }
 .title-text{
     font-size: 35px;
 }
+.about-box{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.about{
+    flex-basis: 50%;
+}
+
 
 
