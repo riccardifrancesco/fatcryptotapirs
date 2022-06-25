@@ -154,7 +154,7 @@ nav ul li a {
 
 
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 770px){
     .banner-text h1 {
         font-size: 55px;
         margin-top: 10px;
@@ -192,11 +192,14 @@ nav ul li a {
     
     #menuBtn img {
         width: 20px;
-        margin-top: 15px;
+        margin-top: 17px;
         margin-left: 30px;
     }
 
     .button {
         display: block;
+    }
+    .navbar ul li{
+        display: none;
     }
 }
