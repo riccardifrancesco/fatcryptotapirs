@@ -16,19 +16,20 @@
 
 
 <body>
-    
+
 
     <div class="banner">
         <div class="navbar">
             <img src="./immagini/2.png" class="logo">
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Home2</a></li>
-                <li><a href="#">Home3</a></li>
-                <li><a href="#">Home4</a></li>
-                <li><a href="#">Home5</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Roadmap</a></li>
+                <li><a href="#">Showcase</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
-            </div>
+        </div>
 
         <div class="banner-text">
             <h1>FAT CRYPTO TAPIRS</h1>
@@ -39,14 +40,47 @@
                 and you will learn the most important techniques of
                 physical and spiritual abandonment.<br>Who knows, maybe
                 you will be the lord of the slackers!</p>
-                
-                <div>
-                    <a href="https://discord.gg/7CADFD86SF"><button type="button"><span></span>JOIN US</button></a>
-                    <button type="button"><span></span>BECOME A TAPIR</button>
-                </div>
+
+            <div>
+                <a href="https://discord.gg/7CADFD86SF"><button type="button"><span></span>JOIN US</button></a>
+                <a href="https://opensea.io/collection/fat-crypto-tapirs-3333"><button type="button"><span></span>BECOME
+                        A TAPIR</button></a>
+            </div>
         </div>
     </div>
 
+
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Roadmap</a></li>
+                <li><a href="#">Showcase</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menuBtn">
+        <img src="./immagini/menu.png" id="menu">
+    </div>
+
+    <script>
+        var menuBtn = document.getElementById("menuBtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+
+        menuBtn.onclick = function(){
+            if(sideNav.style.right == "-250px") {
+                sideNav.style.right = "0";
+            }
+            else {
+                sideNav.style.right = "-250px";
+
+            }
+        }
+    </script>
 
 
 
