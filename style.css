@@ -68,7 +68,7 @@
 }
 
 .banner-text {
-    width: 100%;
+    width: 99%;
     position: absolute;
     top: 30%;
     transform: tranlateY(-50%);
@@ -86,7 +86,7 @@
     margin: 20px auto;
     font-weight: 100;
     line-height: 25px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 button {
@@ -144,12 +144,14 @@ button:hover {
 nav ul li {
     list-style: none;
     margin: 50px 20px;
-
 }
 
 nav ul li a {
     text-decoration: none;
     color: #fff;
+}
+#menu{
+    display: none;
 }
 
 
@@ -168,7 +170,7 @@ nav ul li a {
         margin: 20px 20px;
         font-weight: 100;
         line-height: 17px;
-        font-size: 13px;
+        font-size: 15px;
     }
     .banner {
         width: 100%;
@@ -189,6 +191,9 @@ nav ul li a {
         z-index: 3;
         cursor: pointer;
     }
+    #menu{
+        display: inline;
+    }
     
     #menuBtn img {
         width: 20px;
@@ -196,12 +201,45 @@ nav ul li a {
         margin-left: 30px;
     }
 
+    #sideNav ul li {
+        list-style: none;
+        margin: 50px 20px;
+        position: relative;
+        margin-right: 120px;
+        font-size: 11pt;
+    }
+    
+    #sideNav ul li a {
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+    
+    }
+    
+    #sideNav ul li::after {
+        content: '';
+        height: 2px;
+        width: 0%;
+        background: #ffffff;
+        position: absolute;
+        left: 0;
+        bottom: -8px;
+        transition: 0.5s;
+    }
+    
+    #sideNav ul li:hover:after {
+        width: 100%;
+    }
+
     .button {
         display: block;
-        margin: 20px auto;
-        
+        margin: 20px auto;  
     }
+
     .navbar ul li{
         display: none;
     }
 }
+
+
+
