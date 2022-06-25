@@ -241,5 +241,30 @@ nav ul li a {
     }
 }
 
+/*--about--*/
+
+#about{
+    width: 100%;
+    
+}
+.title-text{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.title-text{
+    margin: auto;
+    font-size: 30px;
+    color: #0d69a3;
+    font-weight: bold;
+}
+#imgAbout{
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 50px;
+    }
+.title-text{
+    font-size: 35px;
+}
 
 
