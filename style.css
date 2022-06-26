@@ -281,8 +281,9 @@ nav ul li a {
     margin: auto;
 }
 .about-img img{
-    width: 70%;
+    width: 80%;
     border-radius: 20px;
+    margin-top: 15px;
 }
 .about h1{
     text-align: left;
